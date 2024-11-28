@@ -161,13 +161,13 @@ collision_message = [
     'FISH: Who is this stranger?',
     'FISH: He looks... unnatural, like something that',
     'FISH: doesn’t belong here.',
-    'FISH: Perhaps he traveled from the South.'
+    'FISH: Perhaps he traveled from the South.',
     'FISH: Well, it doesn’t seem right. I should avoid him.'
 
     ],
     [
 
-    'You approached SEAWEED.'
+    'You approached SEAWEED.',
     'SEAWEED: This is my farewell, friend.',
     'SEAWEED: The tides no longer carry me.',
     'SEAWEED: I wither in poisoned waters, unseen, unheard.',
