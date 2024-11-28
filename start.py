@@ -104,17 +104,17 @@ end = False
 # Messages
 
 intro_text = [
-'I’m just a little fish, living peacefully',
-'in a bright, clean ocean.',
-'But one day, everything changed.',
-'The ocean darkened, and a massive, swirling cloud',
-'of pollution appeared above.',
-'Suddenly, darkness fell, and a storm of trash started',
-'raining down, disturbing the harmony of my world.',
-'The once vibrant ocean was now in chaos,',
-'and I knew I had to do something about it.',
-'I’m setting out to uncover the source of',
-'this disaster to my homeland.'
+    'I miss my home',
+    'The ocean was once clean and vibrant.',
+    'But one day, everything changed.',
+    'The ocean darkened, and a massive, swirling cloud',
+    'of pollution appeared above.',
+    'Suddenly, darkness fell, and a storm of trash',
+    'started raining down, disturbing the harmony of my world.',
+    'The once vibrant ocean was now in chaos,',
+    'and I knew I had to do something about it.',
+    'I’m setting out to uncover the source of',
+    'this pollution and restore balance to my home.'
 
 ]
 
@@ -130,7 +130,7 @@ collision_message = [
     'SEAWEED: How long can I keep this up?'
     ],
     [
-    'Ouch! You hit MR. CRAB.', #1
+    'Ouch! You hit MR. CRAB.',
     'MR. CRAB: Ah, hello there, my friend!',
     'MR. CRAB: Oh? That’s quiet a journey you’re on.',
     'MR. CRAB: You know, crabs like me play a key role',
@@ -347,8 +347,8 @@ def display_start_screen():
     pygame.draw.rect(screen, BUTTON_COLOR if not play_button.collidepoint(pygame.mouse.get_pos()) else HOVER_COLOR, play_button)
     pygame.draw.rect(screen, BUTTON_COLOR if not credits_button.collidepoint(pygame.mouse.get_pos()) else HOVER_COLOR, credits_button)
     
-    draw_text("Play", play_button.x + 40, play_button.y + 10)
-    draw_text("Credits", credits_button.x + 30, credits_button.y + 10)
+    draw_text("Play", play_button.x + 40, play_button.y + 50)
+    draw_text("Credits", credits_button.x + 30, credits_button.y + 50)
     return play_button, credits_button
 
 def end_game():
